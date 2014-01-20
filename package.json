@@ -1,0 +1,22 @@
+{
+  "name": "Souply2",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "dependencies": {
+    "sails": "git://github.com/balderdashy/sails.git#v0.10",
+    "sails-disk": "git://github.com/balderdashy/sails-disk.git#associations",
+    "ejs": "0.8.4",
+    "grunt": "0.4.1",
+    "bcrypt-nodejs": "0.0.3",
+    "sails-mysql": "git://github.com/balderdashy/sails-mysql.git#associations"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": "",
+  "author": "",
+  "license": ""
+}
